@@ -1,0 +1,16 @@
+my_dict = {'Иван': 2005, 'Катя': 2003, 'Ира': 1999}
+print(my_dict)
+print(my_dict['Катя'])
+print(my_dict.get('Тим'))
+my_dict.update({'Петя': 2002, 'Даша': 2008})
+print(my_dict)
+a = my_dict.pop('Ира')
+print(my_dict)
+print(a)
+print(my_dict)
+my_set = {13,2,'слово',6,13,31,'слово',5,6,1,5}
+print(my_set)
+my_set.update(['мир', 56])
+print(my_set)
+my_set.discard(56)
+print(my_set)
